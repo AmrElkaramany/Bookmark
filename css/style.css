@@ -1,0 +1,102 @@
+body {
+    min-height: 100vh;
+    background-color: #F4EDCC;
+
+}
+
+::selection {
+    background-color: #E5E483;
+    color: #352e28;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.title h1 {
+    font-size: 40px;
+    font-family: "Pacifico", cursive;
+    color: #352e28;
+    text-align: center;
+    position: relative;
+
+}
+
+.title h1::before {
+    content: '';
+    position: absolute;
+    width: 18%;
+    height: 30%;
+    bottom: 10%;
+    background-color: #d0b325;
+    z-index: -1;
+    transition: all 0.3s;
+}
+
+.title h1:hover::before {
+    height: 55%;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dot {
+    border-width: 1.3px 0 1.4px 0;
+    border-style: dotted;
+    border-color: #352e28;
+}
+
+.mark1 {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #40A65C;
+    margin-right: 4px;
+}
+
+.mark2 {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #B3AC49;
+    margin-left: 4px;
+}
+
+h2 {
+    font-family: "Righteous", cursive;
+    font-size: 20px;
+    font-weight: 900;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.form-control {
+    font-size: 20px;
+    background-color: white;
+}
+
+.fsize {
+    font-size: 20px;
+}
+
+.btnsubmit,.btnupdate {
+    background-color: #D1512D;
+    color: #fff;
+
+}
+.btnsubmit:hover {
+    background-color: rgb(190, 76, 41);
+    color: #fff;
+}
+.btnupdate:hover {
+    background-color: rgb(190, 76, 41);
+    color: #fff;
+}
+
+
